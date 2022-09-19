@@ -1,1 +1,79 @@
 
+
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #0f0f0f #1f1f1f;
+  }
+
+  *::-webkit-scrollbar {
+    width: 9px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #1f1f1f;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #0f0f0f;
+    border-radius: 8px;
+    border: 16px none #ffffff;
+  }
+
+body {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 75px 15px;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #2a2a2a, #272727, #1e1e1e, #0f0f0f);
+    background-size: 400% 400%;
+    -webkit-animation: bckgrnd-gradient 12s ease infinite;
+    -moz-animation: bckgrnd-gradient 12s ease infinite;
+    animation: bckgrnd-gradient 12s ease infinite
+  }
+  
+  @-webkit-keyframes bckgrnd-gradient {
+
+    0%,
+    100% {
+      background-position: 0 50%
+    }
+
+    50% {
+      background-position: 100% 50%
+    }
+  }
+
+  @-moz-keyframes bckgrnd-gradient {
+
+    0%,
+    100% {
+      background-position: 0 50%
+    }
+
+    50% {
+      background-position: 100% 50%
+    }
+  }
+
+  @keyframes bckgrnd-gradient {
+
+    0%,
+    100% {
+      background-position: 0 50%
+    }
+
+    50% {
+      background-position: 100% 50%
+    }
+  }
+  .avatar {
+    max-width: 10%;
+    display: flex;
+    overflow: hidden;
+    line-height: 1;
+    vertical-align: middle;
+    border-radius: 128px;
+    flex-shrink: 0;
+    user-select: none;
+}
