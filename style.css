@@ -77,3 +77,10 @@ body {
     flex-shrink: 0;
     user-select: none;
 }
+
+.name {
+ display: flex;
+ overflow: hidden;
+ user-select: none;
+ color: #fff;
+}
