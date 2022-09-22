@@ -77,10 +77,11 @@ body {
     flex-shrink: 0;
     user-select: none;
 }
-
-.name {
- display: flex;
- overflow: hidden;
- user-select: none;
- color: #fff;
-}
+   .name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    color: #fff;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+  }
