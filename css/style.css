@@ -28,7 +28,7 @@ body {
   height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #0d0d0d;
+  background: #252525;
   border: 0px none #ffffff;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -377,6 +377,25 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 60%;
   display: inline-block;
   color: rgba(0, 0, 0, 0.5);
+}
+
+#mail{
+
+  margin-top: -4%; 
+  margin-left: 2%; 
+  width:200px;
+  height: 200px;
+  -webkit-animation: fadeinout 1.8s linear forwards;
+  animation: fadeinout 1.8s linear forwards;
+  opacity: 0;
+}
+
+@-webkit-keyframes fadeinout {
+98% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+100% { opacity: 1; }
 }
 
 .fh5co-social-icons {
