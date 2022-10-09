@@ -385,8 +385,8 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-left: 2%; 
   width:200px;
   height: 200px;
-  -webkit-animation: fadeinout 1.8s linear forwards;
-  animation: fadeinout 1.8s linear forwards;
+  -webkit-animation: fadeinout 2s linear forwards;
+  animation: fadeinout 2s linear forwards;
   opacity: 0;
 }
 
@@ -396,6 +396,18 @@ h1, h2, h3, h4, h5, h6, figure {
 
 @keyframes fadeinout {
 100% { opacity: 1; }
+}
+#btn{
+  background-color: #0f0f0f;
+  color: #fff;
+  border-radius: 48px;
+  border: 1px solid #0f0f0f;
+  transition-property: background-color;
+	transition-duration: 0.7s;
+}
+
+#btn:hover{
+  background-color: #19191c;
 }
 
 .fh5co-social-icons {
@@ -758,16 +770,6 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
 }
 
-.work {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 270px;
-  width: 100%;
-  display: table;
-  overflow: hidden;
-}
 @media screen and (max-width: 768px) {
   .work {
     height: 400px;
