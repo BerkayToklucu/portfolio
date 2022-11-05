@@ -132,7 +132,17 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(4, 4, 4, 0.9);
+  content: "";
+  background: linear-gradient(45deg, rgba(212, 212, 212, 0.855) 0%, rgba(183, 183, 183, 0.42) 37%, rgb(210, 210, 210) 100%),
+   url(https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg);
+  background-size: cover;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
