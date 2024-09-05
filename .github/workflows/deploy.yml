@@ -16,8 +16,8 @@ jobs:
       - name: Upload files via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          ftp-server: ${{ secrets.CPANEL_FTP_SERVER }}
-          ftp-username: ${{ secrets.CPANEL_FTP_USER }} 
-          ftp-password: ${{ secrets.CPANEL_FTP_PASS }} 
+          server: ${{ secrets.CPANEL_FTP_SERVER }}  # Doğru parametre ismi 'server'
+          username: ${{ secrets.CPANEL_FTP_USER }}  # Doğru parametre ismi 'username'
+          password: ${{ secrets.CPANEL_FTP_PASS }}  # Doğru parametre ismi 'password'
           local-dir: "./" 
-          remote-dir: "/public_html/"
+          server-dir: "/public_html/"  # Doğru parametre ismi 'server-dir'
