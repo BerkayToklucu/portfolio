@@ -1,9 +1,0 @@
-deployment:
-  build:
-    commands:
-      - echo "No build commands needed for a static site."
-  artifacts:
-    - public/*
-  options:
-    deploy:
-      type: static
